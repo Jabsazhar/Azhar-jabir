@@ -1,0 +1,18 @@
+st=input('enter student name')
+cd=int(input('enter marks of COD'))
+py=int(input('enter marks of PYTHON'))
+db=int(input('enter marks of DBMS'))
+en=int(input('enter marks of ENGLISH'))
+mt=int(input('enter marks of MATHS'))
+T=cd+py+db
+p=T/5*100
+if p>75:
+    print('O grade')
+elif p>60:
+    print('A grade')
+elif p>45:
+    print('B grade')
+elif p>35:
+    print('C grade')
+else:
+    print('FAIL')
